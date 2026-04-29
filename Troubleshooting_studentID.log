@@ -1,0 +1,51 @@
+2026-04-24 17:14:56,503 - INFO - Starting application...
+2026-04-24 17:14:56,519 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-24 17:14:56,519 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-24 17:15:10,424 - INFO - Home page accessed
+2026-04-24 17:15:10,788 - INFO - 127.0.0.1 - - [24/Apr/2026 17:15:10] "GET / HTTP/1.1" 200 -
+2026-04-24 17:15:10,995 - INFO - 127.0.0.1 - - [24/Apr/2026 17:15:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-24 17:15:17,801 - INFO - 127.0.0.1 - - [24/Apr/2026 17:15:17] "GET /login HTTP/1.1" 200 -
+2026-04-24 17:15:25,132 - WARNING - SUSPICIOUS IP DETECTED | IP: 127.0.0.1 | User: admin
+2026-04-24 17:15:25,132 - INFO - ASSERTION SUCCESS: Username 'admin' passed string validation.
+2026-04-24 17:15:25,132 - INFO - LOGIN SUCCESS | User: admin | IP: 127.0.0.1
+2026-04-24 17:15:25,132 - INFO - ASSERTION SUCCESS: Username 'admin' passed string validation.
+2026-04-24 17:15:25,132 - INFO - User admin logged in.
+2026-04-24 17:15:25,133 - INFO - 127.0.0.1 - - [24/Apr/2026 17:15:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-24 17:15:25,136 - INFO - Home page accessed
+2026-04-24 17:15:25,136 - INFO - 127.0.0.1 - - [24/Apr/2026 17:15:25] "GET / HTTP/1.1" 200 -
+2026-04-24 17:16:27,777 - INFO - 127.0.0.1 - - [24/Apr/2026 17:16:27] "GET /login HTTP/1.1" 200 -
+2026-04-24 17:16:42,747 - WARNING - SUSPICIOUS IP DETECTED | IP: 127.0.0.1 | User: admin
+2026-04-24 17:16:42,747 - INFO - ASSERTION SUCCESS: Username 'admin' passed string validation.
+2026-04-24 17:16:42,747 - INFO - LOGIN SUCCESS | User: admin | IP: 127.0.0.1
+2026-04-24 17:16:42,747 - INFO - ASSERTION SUCCESS: Username 'admin' passed string validation.
+2026-04-24 17:16:42,747 - WARNING - Login failed for admin.
+2026-04-24 17:16:42,747 - INFO - 127.0.0.1 - - [24/Apr/2026 17:16:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-24 17:16:42,752 - INFO - 127.0.0.1 - - [24/Apr/2026 17:16:42] "GET /login HTTP/1.1" 200 -
+2026-04-24 17:19:47,642 - INFO - Starting application...
+2026-04-24 17:19:47,997 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-24 17:19:47,997 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-24 17:29:41,758 - INFO - Starting application...
+2026-04-24 17:29:41,773 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-24 17:29:41,773 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-24 17:29:42,255 - INFO - Home page accessed
+2026-04-24 17:29:42,261 - INFO - 127.0.0.1 - - [24/Apr/2026 17:29:42] "GET / HTTP/1.1" 200 -
+2026-04-24 17:29:46,450 - INFO - 127.0.0.1 - - [24/Apr/2026 17:29:46] "GET /rent HTTP/1.1" 200 -
+2026-04-24 17:30:01,216 - INFO - RENTAL REQUEST | Equipment: Bulldozer | Days: 2
+2026-04-24 17:30:01,216 - INFO - ASSERTION SUCCESS: Rental days (2) validated as a positive integer.
+2026-04-24 17:30:01,216 - INFO - RENTAL CALCULATION SUCCESS | Calculated cost: 1000
+2026-04-24 17:30:01,216 - INFO - 127.0.0.1 - - [24/Apr/2026 17:30:01] "POST /rent HTTP/1.1" 200 -
+2026-04-24 17:30:10,885 - INFO - RENTAL REQUEST | Equipment: Excavator | Days: 2
+2026-04-24 17:30:10,885 - INFO - ASSERTION SUCCESS: Rental days (2) validated as a positive integer.
+2026-04-24 17:30:10,885 - INFO - RENTAL CALCULATION SUCCESS | Calculated cost: 900
+2026-04-24 17:30:10,885 - INFO - 127.0.0.1 - - [24/Apr/2026 17:30:10] "POST /rent HTTP/1.1" 200 -
+2026-04-24 17:30:15,935 - INFO - RENTAL REQUEST | Equipment: Crane | Days: 2
+2026-04-24 17:30:15,935 - INFO - ASSERTION SUCCESS: Rental days (2) validated as a positive integer.
+2026-04-24 17:30:15,935 - INFO - RENTAL CALCULATION SUCCESS | Calculated cost: 1600
+2026-04-24 17:30:15,935 - INFO - 127.0.0.1 - - [24/Apr/2026 17:30:15] "POST /rent HTTP/1.1" 200 -
+2026-04-24 17:30:23,249 - INFO - RENTAL REQUEST | Equipment: Bulldozer | Days: 134
+2026-04-24 17:30:23,249 - INFO - ASSERTION SUCCESS: Rental days (134) validated as a positive integer.
+2026-04-24 17:30:23,249 - INFO - RENTAL CALCULATION SUCCESS | Calculated cost: 67000
+2026-04-24 17:30:23,249 - INFO - 127.0.0.1 - - [24/Apr/2026 17:30:23] "POST /rent HTTP/1.1" 200 -
