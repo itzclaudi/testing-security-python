@@ -1,4 +1,4 @@
-# testing-security-python Project
+# Full-Stack Security Audit & Incident Logging System Project
 
 ## Project Overview
 This project involves securing and stabilizing a legacy Flask-based web application for an equipment rental service. The initial application was found to be fragile, insecure, and lacked proper monitoring capabilities. 
