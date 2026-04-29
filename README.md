@@ -40,7 +40,7 @@ To resolve these issues, the following modifications were implemented:
 
 ## How to Run
 1. Install dependencies:
-       Install Python `https://www.python.org/downloads/`
+       <br>Install Python `https://www.python.org/downloads/`
        <br>-`pip install flask`
        <br>-`pip install pytest`
        <br>-`pip install requests`
