@@ -47,7 +47,7 @@ To resolve these issues, the following modifications were implemented:
 
 
 3. Run the application: `python app_student.py`
-4. Run the tests to see if they passed: `pytest test_app.py`
+4. Run the tests to see if they passed: `pytest test_app.py` or `python -m pytest test_app.py`
 5. Static Analysis:
     - Run Flake8: `python -m flake8 app_student.py`
     - Run Bandit: `python -m bandit app_student.py`
