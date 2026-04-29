@@ -1,4 +1,4 @@
-# testing-security-python
+# testing-security-python Project
 
 ## Project Overview
 This project involves securing and stabilizing a legacy Flask-based web application for an equipment rental service. The initial application was found to be fragile, insecure, and lacked proper monitoring capabilities. 
@@ -39,8 +39,14 @@ To resolve these issues, the following modifications were implemented:
 - **Input Sanitization:** Implemented checks to ensure `days > 0` and that the `equipment_type` exists within the price dictionary before access.
 
 ## How to Run
-1. Install dependencies: `pip install flask`
-2. Run the application: `python app_student.py`
-3. Static Analysis:
+1. Install dependencies:
+       Install Python `https://www.python.org/downloads/`
+       -`pip install flask`
+       -`pip install pytest`
+       -`pip install requests`
+
+
+3. Run the application: `python app_student.py`
+4. Static Analysis:
     - Run Flake8: `python -m flake8 app_student.py`
     - Run Bandit: `python -m bandit app_student.py`
