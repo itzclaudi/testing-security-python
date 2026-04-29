@@ -51,3 +51,7 @@ To resolve these issues, the following modifications were implemented:
 5. Static Analysis:
     - Run Flake8: `python -m flake8 app_student.py`
     - Run Bandit: `python -m bandit app_student.py`
+  
+### Project Security Report
+[![Security Report Preview](./images/pdf_preview.png)](./security-testing-python.pdf)
+*Click the image above to open the full PDF report.*
